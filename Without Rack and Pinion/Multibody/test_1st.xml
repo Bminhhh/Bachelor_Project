@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/12/22||16:43:26" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="105">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Tie_rod_components_new-1" uid="Tie_rod_components_new-1" grounded="true" entityUid="Tie_rod_components_new*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Left_wheel-1" uid="Left_wheel-1" entityUid="Left_wheel*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.49924548297562921 0.25625434069661707 0.90711159538477659</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Left_wheel" uid="Left_wheel*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Left_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>152.84650690355767</Mass>
+<CenterOfMass>0.0070985701074240178 0.8168583704078668 0.0049673635412080972</CenterOfMass>
+<Inertia>5.8132702836412111 10.147059791212204 5.9629669887281329 0.12109905607449532 -0.16309075464147715 0.17888958389284762</Inertia>
+</MassProperties>
+<GeometryFile name="Left_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tie_rod_components_new" uid="Tie_rod_components_new*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tie_rod_components_new.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.8898451039243689</Mass>
+<CenterOfMass>0.00032485987361900959 0.00095553927955955762 0.40358487685947614</CenterOfMass>
+<Inertia>1.2003833471504177 1.2004034536637709 0.002728771370547901 0.00074350122149579288 0.0010855586440926472 -6.0518523308500319e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Tie_rod_components_new_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

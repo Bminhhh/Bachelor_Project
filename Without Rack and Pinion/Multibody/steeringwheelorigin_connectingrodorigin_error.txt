@@ -1,0 +1,4 @@
+Constrained Instances: 'THANH RANG-1', 'steeringwheelorigin_connectingrodorigin_backup'
+Constraint Name: Coincident1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

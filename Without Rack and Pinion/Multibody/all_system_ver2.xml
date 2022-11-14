@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/12/22||14:47:49" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="thanh_rack" uid="thanh_rack" version="257">
+<AssemblyFile name="thanh_rack.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Steering_wheel_steering_column-1" uid="Steering_wheel_steering_column-1" entityUid="Steering_wheel_steering_column*:*Default">
+<Transform>
+<Rotation>-0.33280738324675974 0.93730281222813616 0.10345377637221202 0.93259870348514706 0.34339709766555371 -0.11107696238508258 -0.13963847576605565 0.059513624524989171 -0.98841247694554701</Rotation>
+<Translation>-0.018372332856265307 -0.094340975058278209 -1.0995524519402775</Translation>
+</Transform>
+</Instance>
+<Instance name="Tie_rod_components_new-1" uid="Tie_rod_components_new-1" entityUid="Tie_rod_components_new*:*Default">
+<Transform>
+<Rotation>0.051354950719917428 -0.16054031860914544 -0.98569238362555534 0.99733666495554518 0.059428720489073723 0.042282430350949633 0.051790402314581485 -0.98523856668418419 0.1631647049646098</Rotation>
+<Translation>0.0019911400581024649 0.0068759668236699533 0.01024681779100837</Translation>
+</Transform>
+</Instance>
+<Instance name="Left_wheel-1" uid="Left_wheel-1" grounded="true" entityUid="Left_wheel*:*Default">
+<Transform>
+<Rotation>-0.13864708374708845 0.98601310074750903 -0.092494061013184206 0.46957358269877786 -0.016777299562274767 -0.88273391950849578 -0.87193900967892357 -0.16582125127281033 -0.46067958064847808</Rotation>
+<Translation>-0.45304976591499457 0.1344657033776146 -0.022751491039238698</Translation>
+</Transform>
+</Instance>
+<Instance name="right_wheel-1" uid="right_wheel-1" grounded="true" entityUid="right_wheel*:*Default">
+<Transform>
+<Rotation>-0.98589325290304997 0.16675379319521511 0.01441063271512406 0.03127799484380997 0.098972082183983123 0.99459851899483409 0.1644268254233274 0.98101870492013277 -0.10279163233470086</Rotation>
+<Translation>-1.1619040223590915 0.18277796627109477 0.091453948167870877</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Left_wheel-1</Uid>
+</InstancePath>
+<Position>-0.15052661494087646 0.73024941004317445 0.064962154277991097</Position>
+<Axis>0.83141942898395405 0 0.55564533032141639</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>-0.0027539909420364345 0.017081684071610724 -0.28499804259358957</Position>
+<Axis>0.15916938259931543 -0.98725128900546544 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Left_wheel-1</Uid>
+</InstancePath>
+<Position>-0.14143852517243399 0.74699941004317438 0.081905603325242105</Position>
+<Axis>-0.8314194289839586 0 -0.55564533032140973</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>0.0026528879628003998 0.024085992664853992 -0.28499804259358963</Position>
+<Axis>-0.15916938259931543 0.98725128900546544 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>right_wheel-1</Uid>
+</InstancePath>
+<Position>0.016749999999999821 0.090486376465057583 -0.13679205939419209</Position>
+<Axis>0 -0.99994561524804915 -0.010429120106747736</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>-0.002913151915692495 0.017055261438841549 1.1831534849394134</Position>
+<Axis>0.16836823417288088 -0.98572416918806771 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>right_wheel-1</Uid>
+</InstancePath>
+<Position>0.033499999999999863 0.07350811862085152 -0.13614274887535599</Position>
+<Axis>0 0.99994561524804892 0.010429120106750442</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>-0.010293221357467854 0.021936783065908697 1.1831534849394132</Position>
+<Axis>-0.16836823417288088 0.98572416918806771 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steering_wheel_steering_column-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0050000000000001155</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>0.006803907816311806 0.08171152910035108 0.11910256764135614</Position>
+<Axis>0.15665854346490737 -0.95061242810812208 0.26794423353719382</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering_wheel_steering_column-1</Uid>
+</InstancePath>
+<Position>0 0 -1.1595000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>0.022175498078205687 -0.011564103492360969 0.14539369023112783</Position>
+<Axis>-0.15665854346490743 0.95061242810812208 -0.26794423353719388</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Tie_rod_components_new-1</Uid>
+</InstancePath>
+<Position>-0.0074905955356659743 0.01000658842235431 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>thanh_rack</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Left_wheel" uid="Left_wheel*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Left_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>152.84650690355767</Mass>
+<CenterOfMass>0.0070985701074240178 0.8168583704078668 0.0049673635412080972</CenterOfMass>
+<Inertia>5.8132702836412111 10.147059791212204 5.9629669887281329 0.12109905607449532 -0.16309075464147715 0.17888958389284762</Inertia>
+</MassProperties>
+<GeometryFile name="Left_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering_wheel_steering_column" uid="Steering_wheel_steering_column*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering_wheel_steering_column.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.4835755327359039</Mass>
+<CenterOfMass>-1.9534318850639793e-07 0.0065427535385087377 -0.24530870086279435</CenterOfMass>
+<Inertia>0.46241623721934949 0.46481118256359039 0.029054610542008547 -0.005573503582231098 1.6574037843182623e-07 2.0412132725625164e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Steering_wheel_steering_column_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tie_rod_components_new" uid="Tie_rod_components_new*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tie_rod_components_new.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.8898451039243689</Mass>
+<CenterOfMass>0.00032485987361900959 0.00095553927955955762 0.40358487685947614</CenterOfMass>
+<Inertia>1.2003833471504177 1.2004034536637709 0.002728771370547901 0.00074350122149579288 0.0010855586440926472 -6.0518523308500319e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Tie_rod_components_new_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="right_wheel" uid="right_wheel*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="right_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>152.84635006551122</Mass>
+<CenterOfMass>0.10335902618389166 -0.0086709120838883297 -0.00026228599834926254</CenterOfMass>
+<Inertia>10.147031058289155 5.7089807538651094 6.0672266601844296 0.0029583594968258116 -0.0035268005853103324 -0.21600424159167053</Inertia>
+</MassProperties>
+<GeometryFile name="right_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

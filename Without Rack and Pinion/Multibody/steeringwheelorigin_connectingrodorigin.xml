@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/12/22||17:58:13" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="steeringwheelorigin_connectingrodorigin_backup" uid="steeringwheelorigin_connectingrodorigin_backup" version="159">
+<AssemblyFile name="steeringwheelorigin_connectingrodorigin_backup.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Steering_wheel_steering_column-1" uid="Steering_wheel_steering_column-1" grounded="true" entityUid="Steering_wheel_steering_column*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="V? CO C?U LÁI-1" uid="V? CO C?U LÁI-1" entityUid="V? CO C?U LÁI*:*Default">
+<Transform>
+<Rotation>2.3452228310125149e-16 -0.99207678244386344 0.12563302804529997 0 0.12563302804529997 0.99207678244386344 -1 -2.3639529444841309e-16 0</Rotation>
+<Translation>0 0 0.23628636428041039</Translation>
+</Transform>
+</Instance>
+<Instance name="KH?P C?U 3-1" uid="KH?P C?U 3-1" entityUid="KH?P C?U 3*:*Default">
+<Transform>
+<Rotation>0 -0.28164309169959201 0.95951923841989495 0 -0.95951923841989495 -0.28164309169959201 1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2^steeringwheelorigin_connectingrodorigin_backup-1" uid="Part2^steeringwheelorigin_connectingrodorigin_backup-1" grounded="true" entityUid="Part2^steeringwheelorigin_connectingrodorigin_backup*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="right_wheel-1" uid="right_wheel-1" entityUid="right_wheel*:*Default">
+<Transform>
+<Rotation>3.4827872274881233e-15 0.053645876279530387 -0.99856002321252657 1.5165288550375546e-16 -0.99856002321252657 -0.053645876279530387 -1 0 -3.485907646657999e-15</Rotation>
+<Translation>-0.14172536702043198 0.089397884549749645 -0.26240348493941373</Translation>
+</Transform>
+</Instance>
+<Instance name="Left_wheel-1" uid="Left_wheel-1" entityUid="Left_wheel*:*Default">
+<Transform>
+<Rotation>-0.65017845792407147 3.5372266532787811e-15 0.75978152968565671 0.75978152968565671 4.7866039249305654e-16 0.65017845792407147 1.9361512455484109e-15 1 -2.9987341533334944e-15</Rotation>
+<Translation>-0.14798233468972044 0.078471533015118666 0.43536040714457053</Translation>
+</Transform>
+</Instance>
+<Instance name="ROTUYN TRONG-2" uid="ROTUYN TRONG-2" entityUid="ROTUYN TRONG*:*Default">
+<Transform>
+<Rotation>0 -0.9129560178897973 0.40805797308569286 0 -0.40805797308569275 -0.9129560178897973 1 0 0</Rotation>
+<Translation>0 0 0.89615348493941316</Translation>
+</Transform>
+</Instance>
+<Instance name="KH?P C?U 3-2" uid="KH?P C?U 3-2" entityUid="KH?P C?U 3*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0 0 0.89599999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="ROTUYN NGOÀI-2" uid="ROTUYN NGOÀI-2" entityUid="ROTUYN NGOÀI*:*Default">
+<Transform>
+<Rotation>0 -0.11840194319060149 0.99296574958489348 0 0.99296574958489348 0.11840194319060149 -1 0 0</Rotation>
+<Translation>-0.00078821434988924895 0.0066102787815857222 1.1656098171877443</Translation>
+</Transform>
+</Instance>
+<Instance name="THANH RANG-1" uid="THANH RANG-1" entityUid="THANH RANG*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ROTUYN NGOÀI-1" uid="ROTUYN NGOÀI-1" entityUid="ROTUYN NGOÀI*:*Default">
+<Transform>
+<Rotation>0 -0.043228856345975411 -0.99906519606030686 0 0.99906519606030686 -0.043228856345975411 1 0 0</Rotation>
+<Translation>-0.00028777910212459946 0.0066508834465831895 -0.27915348493941328</Translation>
+</Transform>
+</Instance>
+<Instance name="ROTUYN TRONG-1" uid="ROTUYN TRONG-1" entityUid="ROTUYN TRONG*:*Default">
+<Transform>
+<Rotation>0 0.22309433879109206 0.97479685883745315 0 0.97479685883745315 -0.22309433879109206 -1 0 0</Rotation>
+<Translation>0 0 -0.00015348493941320929</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<UnknownConstraint name="Coincident1">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>steeringwheelorigin_connectingrodorigin_backup</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0.59799999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>KH?P C?U 3-1</Uid>
+</InstancePath>
+<Position>-0.00015348493941320235 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KH?P C?U 3-1</Uid>
+</InstancePath>
+<Position>0 0.017999999999999988 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN TRONG-1</Uid>
+</InstancePath>
+<Position>0.010999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0.59799999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROTUYN TRONG-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KH?P C?U 3-1</Uid>
+</InstancePath>
+<Position>-0.00015348493941320235 0.0017499999999978668 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-1</Uid>
+</InstancePath>
+<Position>0.035250000000000004 -0.0066571065360000008 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN TRONG-1</Uid>
+</InstancePath>
+<Position>0.010999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-1</Uid>
+</InstancePath>
+<Position>0.072000000000000008 -0.015157106536000008 0.0096140000000000028</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ROTUYN TRONG-1</Uid>
+</InstancePath>
+<Position>0.20700000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0.59799999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>V? CO C?U LÁI-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 -2.3639529444841442e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KH?P C?U 3-1</Uid>
+</InstancePath>
+<Position>0 0.017999999999999988 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>V? CO C?U LÁI-1</Uid>
+</InstancePath>
+<Position>0.23628636428041039 0 0</Position>
+<Axis>1 2.3639529444841442e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-1</Uid>
+</InstancePath>
+<Position>0 0.010645159120009854 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>right_wheel-1</Uid>
+</InstancePath>
+<Position>0.016750000000000043 0.090486376465057583 -0.13679205939419212</Position>
+<Axis>0 -0.99994561524804904 -0.010429120106747791</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-1</Uid>
+</InstancePath>
+<Position>0 0.016699562230209197 -0.0064528196426182289</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>right_wheel-1</Uid>
+</InstancePath>
+<Position>0.03350000000000003 0.07350811862085152 -0.13614274887535602</Position>
+<Axis>0 0.99994561524804915 0.010429120106750511</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0.59799999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>KH?P C?U 3-2</Uid>
+</InstancePath>
+<Position>-0.00015348493941325092 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>THANH RANG-1</Uid>
+</InstancePath>
+<Position>0 0 0.87299999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KH?P C?U 3-2</Uid>
+</InstancePath>
+<Position>0.02300000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>KH?P C?U 3-2</Uid>
+</InstancePath>
+<Position>-0.00015348493941325092 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN TRONG-2</Uid>
+</InstancePath>
+<Position>0.01100000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KH?P C?U 3-2</Uid>
+</InstancePath>
+<Position>-0.00015348493941325092 0.0017499999999978668 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROTUYN TRONG-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-2</Uid>
+</InstancePath>
+<Position>0.035250000000000004 -0.0066571065359999973 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN TRONG-2</Uid>
+</InstancePath>
+<Position>0.01100000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Left_wheel-1</Uid>
+</InstancePath>
+<Position>-0.15052661494087644 0.73024941004317423 0.064962154277991041</Position>
+<Axis>0.83141942898395393 0 0.55564533032141639</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-2</Uid>
+</InstancePath>
+<Position>0 0.010645159120009847 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Left_wheel-1</Uid>
+</InstancePath>
+<Position>-0.14143852517243397 0.74699941004317427 0.081905603325242049</Position>
+<Axis>-0.83141942898395849 0 -0.55564533032140973</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ROTUYN NGOÀI-2</Uid>
+</InstancePath>
+<Position>0 0.016699562230209186 -0.0064528196426182254</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="KH?P C?U 3" uid="KH?P C?U 3*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KH?P C?U 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14621444585485474</Mass>
+<CenterOfMass>-0.0041669143074160786 -5.309127681076542e-07 1.0118815482110077e-05</CenterOfMass>
+<Inertia>2.4259458461028645e-05 3.1067705281950591e-05 3.106713345223481e-05 1.3667802861493681e-10 -1.6117583937273477e-08 4.0063628018194442e-10</Inertia>
+</MassProperties>
+<GeometryFile name="KH?P C?U 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Left_wheel" uid="Left_wheel*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Left_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>152.84650690355767</Mass>
+<CenterOfMass>0.0070985701074240178 0.8168583704078668 0.0049673635412080972</CenterOfMass>
+<Inertia>5.8132702836412111 10.147059791212204 5.9629669887281329 0.12109905607449532 -0.16309075464147715 0.17888958389284762</Inertia>
+</MassProperties>
+<GeometryFile name="Left_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2^steeringwheelorigin_connectingrodorigin_backup" uid="Part2^steeringwheelorigin_connectingrodorigin_backup*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="steeringwheelorigin_connectingrodorigin_backup.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>1.2915241661697891e+161 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part2-steeringwheelorigin_connectingrodorigin_backup_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ROTUYN NGOÀI" uid="ROTUYN NGOÀI*:*Default" version="354">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ROTUYN NGOÀI.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.41154986536086696</Mass>
+<CenterOfMass>0.0088035064248656435 -0.0012756585444591566 -2.8177870124264511e-07</CenterOfMass>
+<Inertia>0.0001086475301469852 0.00019138939847320794 0.00024940606374997202 -5.3971505083199092e-10 4.7518843327295008e-09 2.1661635661403585e-05</Inertia>
+</MassProperties>
+<GeometryFile name="ROTUYN NGOÀI_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ROTUYN TRONG" uid="ROTUYN TRONG*:*Default" version="246">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ROTUYN TRONG.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27949786258244119</Mass>
+<CenterOfMass>0.11152127211237041 -5.5546406574808625e-08 -1.823978724856442e-08</CenterOfMass>
+<Inertia>7.6701576773068287e-06 0.0016602552955445546 0.0016602553353977478 5.562037408056966e-11 -2.0602518009624618e-09 1.5372139857837536e-09</Inertia>
+</MassProperties>
+<GeometryFile name="ROTUYN TRONG_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering_wheel_steering_column" uid="Steering_wheel_steering_column*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering_wheel_steering_column.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.4835755327359039</Mass>
+<CenterOfMass>-1.9534318850639793e-07 0.0065427535385087377 -0.24530870086279435</CenterOfMass>
+<Inertia>0.46241623721934949 0.46481118256359039 0.029054610542008547 -0.005573503582231098 1.6574037843182623e-07 2.0412132725625164e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Steering_wheel_steering_column_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="THANH RANG" uid="THANH RANG*:*Default" version="915">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="THANH RANG.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.8091884847991206</Mass>
+<CenterOfMass>1.4923901627733066e-06 -0.00016504754219860435 0.45420098930641145</CenterOfMass>
+<Inertia>0.17701566002399086 0.17701924897501753 0.00019162987694178941 -0.00012369997839936869 7.074712745677524e-07 -9.8862176931568641e-08</Inertia>
+</MassProperties>
+<GeometryFile name="THANH RANG_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="V? CO C?U LÁI" uid="V? CO C?U LÁI*:*Default" version="1042">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="V? CO C?U LÁI.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.0460400732185491</Mass>
+<CenterOfMass>0.12639500326483588 0.0015353553676901496 0.0018752397107112918</CenterOfMass>
+<Inertia>0.0012022553761447661 0.0086923112813291434 0.0085026226360461182 -5.1995759515746031e-05 -0.0003591911436902553 -0.00015278400318455035</Inertia>
+</MassProperties>
+<GeometryFile name="V? CO C?U LÁI_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="right_wheel" uid="right_wheel*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="right_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>152.84635006551122</Mass>
+<CenterOfMass>0.10335902618389166 -0.0086709120838883297 -0.00026228599834926254</CenterOfMass>
+<Inertia>10.147031058289155 5.7089807538651094 6.0672266601844296 0.0029583594968258116 -0.0035268005853103324 -0.21600424159167053</Inertia>
+</MassProperties>
+<GeometryFile name="right_wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
